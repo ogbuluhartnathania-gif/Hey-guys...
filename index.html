@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyb3Y3MTB2cXJiYXVjMDVtbWdpdGZhZm0xaTVsYXMya2ViYmN4ZTZyOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Lz6971fkGSgCMOOncl/200.gif"
+     width="250">
+<head>
+    <title>Operation: Please Don't be Mad at Nengi</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 50px auto;
+            text-align: center;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .card {
+            background: pink;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        #content {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1> Friendship Emergency :( </h1>
+
+    <p>
+        To the people who are currently annoyed with me...
+    </p>
+
+    <button onclick="showStuff()">
+        Open Incident Report
+    </button>
+
+    <div id="content">
+
+        <h2>Exhibit A: I Messed Up</h2>
+
+        <p> Hid Cherish's bag</p>
+        <p> Said I didn't know where it was (big no no)</p>
+        <p> Helped turn a playing situation into an excalated playing situation</p>
+
+        <h2>Exhibit B: Context</h2>
+
+        <p>
+            My wardrobe got locked and my stuff got moved.
+            I got annoyed.
+            I responded badly.
+      
+        </p>
+
+        <p>
+            This isn't an excuse!.
+        </p>
+
+        <h2>What I Actually Mean</h2>
+
+        <p> I love you guys so much.</p>
+        <p> I don't want us fighting.</p>
+        <p> I'd like us to talk things through.</p>
+
+        <button onclick="forgiveMe()">
+            Friendship Restoration Protocol
+        </button>
+
+        <p id="message"></p>
+
+    </div>
+
+</div>
+
+<script>
+
+function showStuff() {
+    document.getElementById("content").style.display = "block";
+}
+
+function forgiveMe() {
+
+    document.getElementById("message").innerHTML =
+    "<br>Repairing friendship...<br><br>" +
+    "██████████ 100% *hopefully* <br><br>" +
+    "I did not do anything because I'm trying to make my story better like you presume.<br><br>" +
+    "Can we talk please?";
+}
+
+</script>
+
+</body>
+</html>
